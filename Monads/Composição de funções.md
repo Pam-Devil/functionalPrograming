@@ -93,4 +93,4 @@ Repare só numa coisa, nós pegamso duas funções iniciais, com um mesmo tipo e
 
 Basicamente usamos dois conceitos bases e usamos os dois em conjunto para construir um novo conceito mais avançado, mas que herda da principal caracteristica dos anteriores, o seu tipo de entrada e retorno. 
 
-Pois meus parabéns, pois acabamos de criar um monoide! 
+Pois meus parabéns, pois acabamos de criar um monoide!! 
