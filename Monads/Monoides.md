@@ -9,16 +9,16 @@
 Em termos formais e gerais um monoide é definido da seguinte maneira:
 
 $$
-    M = (A,\circ)\\ \text{é dito um monoide se e somente se:} \;\\
+    M = (A,\circ,e)\\ \text{é dito um monoide se e somente se:} \;\\
      \forall x,y,z \in A \\ x \circ (y \circ z) = (x \circ y) \circ z \;\text{(associatividade)}\\
-     \exists\, z\in A\,|\, x \circ z = x, z \circ x = x; \text{(identidade)}
+      x \circ e = x, e \circ x = x; \text{(identidade)}
 $$
 
 Um exemplo fora do mundo da programação do que seria um monoide, temos um relógio. 
 
 O conjunto de números em um relógio formam um monoide 
 $$
-    M = (N,\star)
+    M = (N,\star,e)
 $$
 
 primeiro temos o conjunto $N=\{1,2,3,...,12\}$ este conjunto é nossa coleção de coisas. É o conjunto que contém as possíveis horas marcadas no relógio.
@@ -32,11 +32,11 @@ $$
 $$
 
 ou seja o monoide 
-$$M = (N,\star)$$
+$$M = (N,\star,e)$$
 
  é formado pelo conjunto $N$ e a regra de associação $\star$ 
 
- também poderíamos formar o Monoide $S(N,\bullet)$ onde $\bullet$ é a regra de associação válida envolvida com a subtração das horas do relógio. 
+ também poderíamos formar o Monoide $S(N,\bullet,e)$ onde $\bullet$ é a regra de associação válida envolvida com a subtração das horas do relógio. 
 
  é possivel notar também o conjunto de operações $\{\star,\bullet\}$ também formam um monoide $O$ das operações válidas dentro do contexto do monoide $M$ e assim poderíamos compor essas operações para criar operações mais complexas que ainda assim satisfariam o monoide $M$.
 
@@ -68,4 +68,4 @@ Desta forma fica bem claro que o nosso monoide
 $$
     M = (F,\circ)
 $$
-é composto por $F = \{f,g,h,\dots\}$ o conjunto de nossas funções simples e a associação $\circ$ que compõe estas funções em novas funções pertencentes a $F$
+é composto por $F = \{f,g,h,\dots\}$ o conjunto de nossas funções simples e a associação $\circ$ que compõe estas funções em novas funções pertencentes a $F$ 
