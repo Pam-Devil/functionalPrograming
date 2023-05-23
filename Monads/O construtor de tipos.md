@@ -10,7 +10,7 @@ $$
 
 Desta forma fica bem claro que o nosso monoide 
 $$
-    \Omega^\star = (F^\star,\circ) \\
+    \Omega^\star = (F^\star,\bullet) \\
     x \to a \\
     f:a \to Ma \\
     g:a \to Ma \\
@@ -26,7 +26,9 @@ $$
 $$
 A natureza de $M$ é de fato desconhecida, ela pode ser qualquer função, externa ao nosso monoide $\Omega$, a única característica que nos interessa nessa função de fato é que ela tem como como entrada um tipo $a$ e retorna um novo tipo $Ma$ sendo ele algum tipo de transformação, alteração ou adição ao nosso tipo original.
 
-Podemos pensar em $M$ num sentido de programação em por exemplo uma função que busca e extrai dados de um banco de dados. 
+Podemos pensar em $M$ num sentido de programação em por exemplo uma função que busca e extrai dados de um banco de dados.
+
+A essa função $M$ damos o nome de _"construtor de tipos"_.
 
 Assim x pode ser do tipo usuario por exemplo e enquanto M pode ser o acesso ao banco de dados buscando pelo nome do usuário por exemplo.
 
