@@ -1,4 +1,4 @@
-# DeFinição de Monad 
+# Definição de Monad 
 ## <span class="monad" style="color:hsl(1000,20%,75%)"><em>Um monad é um monóide na categoria dos endoFuntores</em></span>
 
 Vamos destrinchar melhor essa descrição para uma melhor compreensão.
