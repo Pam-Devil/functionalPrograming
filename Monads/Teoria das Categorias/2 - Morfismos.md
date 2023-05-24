@@ -27,7 +27,15 @@ $$
     f \circ g_1 = f \circ g_2
     \implies g_1 = g_2 
 $$
+<div class="container"style="">
+    <div class="image container"">
+        <img src="../assets/zxy.png">
+        <img src="../assets/monomorphism_diagram.png">
+    </div>
+</div>
 Em perspectiva de um conjunto, um monomorfismo é uma função injetora.
+
+
 
 # Epimorfismos
 
@@ -48,3 +56,14 @@ $$
 $$
 Em perspectiva de um conjunto, um epimorfismo é uma função sobrejetora. 
 
+<style>
+    .container {
+        min-height: 20rem;
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+    .image-container {
+        width: 50dvh;
+    }
+</style>

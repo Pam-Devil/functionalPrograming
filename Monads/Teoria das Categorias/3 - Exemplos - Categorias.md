@@ -13,3 +13,6 @@ $$
     sendo \; a,b \in T \, e\, f \in F\\
     f:a \to b
 $$
+para uma maior clareza lembre-se que essa notação de funções é muito semelhante a declaração de funções em haskell.
+
+# Monoids
