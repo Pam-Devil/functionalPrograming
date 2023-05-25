@@ -29,6 +29,6 @@ function<TypeWithLog<bool>(A a)>
         };
     };
 int main(){
-    compose(negar(false),manter(true));
+    compose(negar,manter);
     return 0;
 };
