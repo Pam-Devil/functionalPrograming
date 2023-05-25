@@ -113,15 +113,15 @@ Se em algum momento em nosso código estamos redefinindo as regras de composiç�
 Vamos reescrever esse Monad usando typescript agora. 
 
 ```ts
-interface ITypeLogger <Type> {
-    type:<T>;
-    Log: String;
-}
-const typelog = {
-    first:<type>,
-    second:String
+type TypeWithLog<Type> = {
+    first:Type;
+    second:String;
 }
 
-function negate(x:bool){
-    return ITypeLogger
+
+function negate<T>(x:T): TypeWithLog<T>{
+    return {
+        first: !x,
+        second:"Not!"
+    }
 }
