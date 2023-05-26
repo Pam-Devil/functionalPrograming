@@ -25,9 +25,9 @@ std::pair<A,std::string> compose(A a, B b, std::pair<A,std::string> (*func)(A)){
 
 int main(){
 
-    auto newcomposed =  wrap(15);
-    std::cout << "The first element of newcompose is: " << newcomposed.first <<'\n';
-    std::cout <<"The second element of newcompose is: " << newcomposed.second <<'\n';
+    auto new_composed =  wrap(15);
+    std::cout << "The first element of new_compose is: " << new_composed.first <<'\n';
+    std::cout <<"The second element of new_compose is: " << new_composed.second <<'\n';
     
     auto composed =  compose(false, true, &negate);
     std::cout <<std::boolalpha << "The first element of compose is: " << composed.first <<'\n';
