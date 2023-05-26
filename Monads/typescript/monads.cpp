@@ -32,7 +32,5 @@ int main(){
     auto composed =  compose(false, true, &negate);
     std::cout <<std::boolalpha << "The first element of compose is: " << composed.first <<'\n';
     std::cout <<"The second element of compose is: " << composed.second <<'\n';
-    
-    
     return 0;
 }
