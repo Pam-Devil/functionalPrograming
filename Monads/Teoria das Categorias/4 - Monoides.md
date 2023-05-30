@@ -2,16 +2,21 @@
 ## Como categoria
  <div style="color:hsl(1000,20%,75%)"> <em> Um monoide é uma categoria com um único elemento e qualquer número arbitrário de morfismos</em></div>
 
+
 $$
     \Omega = (a,F)
 $$
+
 onde leva a todos os morfismos nesta categoria serem do tipo
+
 $$
     f:a \to a
 $$
+
 o que os caracteriza como morfismos de indentidade.
 
-Uma consequência importante de um monoide, é que pelo fato de haver apenas um único elemento, logo todos seus morfismos são aptos para composição. 
+Uma consequência importante de um monoide, é que pelo fato de haver apenas um único elemento, logo todos seus morfismos são aptos para composição.
+
 $$
     \forall f,g : a \to a \\ 
     f \circ g = h \in F
